@@ -1,0 +1,20 @@
+html open
+      MAIN      
+      <!--===== Home =====-->      
+      <!--===== About =====-->      
+      <!--===== Qualification =====-->      
+      <!--===== Skills =====-->      
+      <!--===== Work =====-->      
+      <!-- Portfolio Popup -->      
+      <!--===== Services =====-->      
+      <!--===== Testimonials =====-->      
+      <!--===== Contact =====-->      
+      <!--===== FOOTER =====-->
+      close MAIN
+
+      <!--========== SCROLL UP ==========-->    
+      <!--========== MIXITUP FILTER ==========-->
+      <!--========== SWIPER JS ==========-->
+      <!--========== MAIN JS ==========-->
+
+html close
