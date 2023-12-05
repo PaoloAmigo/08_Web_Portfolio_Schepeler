@@ -4,6 +4,7 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   /*===== Colors =====*/
+  --hue-color: 242;
 
   /* HSL Color Mode */
 
@@ -16,9 +17,22 @@
   --font-bold: 600;
 
   /*===== Margenes Bottom =====*/
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
 
-  /* Responsive Typography */
+  /*===== Z Index =====*/
+  --z-fixed: 10;
+  --z-modal: 100;
 }
+
+/* Responsive Typography */
+
 /*=============== BASE ===============*/
 
 /*=============== LAYOUT ===============*/
