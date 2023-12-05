@@ -28,7 +28,7 @@ CSS start
 @import url('');
 
 /*=============== VARIABLES CSS ===============*/
-:root {
+:root 
     /*===== Colors =====*/
 
     /* HSL Color Mode */
