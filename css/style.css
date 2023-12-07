@@ -168,10 +168,12 @@ h3 {
   .header-content h1 {
     font-size: 7rem;
   }
-  .about-content,
-  .work-top {
+  .about-content {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 6rem;
     row-gap: 0;
+  }
+  .about-left {
+    margin-bottom: 0;
   }
 }
