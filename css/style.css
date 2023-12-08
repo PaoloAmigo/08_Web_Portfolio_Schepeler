@@ -113,7 +113,7 @@ img {
   padding: 0 2rem;
 }
 .vh-100 {
-  min-height: 85vh;
+  min-height: 100vh;
 }
 h1,
 h2,
@@ -151,7 +151,9 @@ h3 {
 }
 
 /* header */
+
 #header {
+  height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url("../images/header-banner.jpg") center/cover no-repeat fixed;
   justify-content: flex-start;
@@ -203,10 +205,36 @@ h3 {
   opacity: 0.9;
 }
 
+/* Styles for the download button */
+.download-cv-container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.btn-download-cv {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border-radius: 3rem;
+  margin-left: 1rem;
+}
+
+.btn-download-cv:hover {
+  background-color: orange;
+}
+
 /* about */
+#about {
+  height: 100vh;
+  margin-top: 2rem; /* Adjust the margin to your preference */
+}
 .about-left {
   margin-bottom: 4rem;
-  height: 480px;
+  height: 600px;
   overflow: hidden;
 }
 /* button down and title -reusable */
@@ -273,6 +301,10 @@ h3 {
 
 /* contact */
 #contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(248, 248, 248);
 }
 .contact-content {
@@ -314,6 +346,7 @@ h3 {
   background-color: #000;
 }
 
+/*  Intrigued  */
 #intrig {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url("../images/insta-pic.jpg") center/cover no-repeat fixed;
