@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="background_styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,12 +19,33 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- Navigator  -->
+    <nav class="navbar">
+      <div class="flex">
+        <div class="brand-title"><span class="name1">Paolo </span><span class="name2">Schepeler </span></div>
+      </div>
+      <div class="container">
+        <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul class="flex">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <li><a href="#intrig">Intrigued</a></li>
+        </ul>
+      </div>
+    </nav>
     <!-- header -->
     <header id="header" class="vh-100 flex">
       <div class="container">
         <div class="header-content">
           <h1>
-            I'm Paolo Schepeler <br /><span
+            I'm <span class="name1">Paolo </span><span class="name2"> Schepeler</span> <br /><span
               class="typewrite"
               data-loop="yes"
               data-speed="100"
@@ -29,7 +53,7 @@
               data-words='["cloud & car architect ", "problem-solver ", "dev_ops engineer ", "adaptive leader ", "critical thinker ", "innovator ", "designer " ]'
             ></span>
           </h1>
-          <h3>Paolo Schepeler</h3>
+          <h3></h3>
 
           <ul class="social-links">
             <li>
