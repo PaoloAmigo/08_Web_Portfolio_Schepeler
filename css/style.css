@@ -33,7 +33,7 @@ body {
   width: 100%;
   z-index: 1000;
   display: flex;
-  position: fixed;
+
   justify-content: space-between;
   align-items: center;
   background-color: #333;
@@ -87,10 +87,10 @@ body {
   background-color: white;
   border-radius: 10px;
 }
+
 /* end Navbar */
 
-button,
-.btn {
+button {
   cursor: pointer;
   border: none;
   background: transparent;
@@ -206,6 +206,7 @@ h3 {
 }
 
 /* Styles for the download button */
+
 .download-cv-container {
   margin-top: 2rem;
   display: flex;
@@ -215,11 +216,11 @@ h3 {
 .btn-download-cv {
   display: inline-block;
   padding: 1rem 2rem;
-  background-color: blue;
+  background-color: rgb(2, 128, 246);
   color: white;
   text-decoration: none;
-  transition: background-color 0.3s;
-  border-radius: 3rem;
+  transition: background-color 0.5s;
+  border-radius: 1rem;
   margin-left: 1rem;
 }
 
@@ -228,16 +229,19 @@ h3 {
 }
 
 /* about */
+
 #about {
   height: 100vh;
-  margin-top: 2rem; /* Adjust the margin to your preference */
+  margin-top: 6rem; /* Adjust the margin to your preference */
 }
 .about-left {
   margin-bottom: 4rem;
   height: 600px;
   overflow: hidden;
 }
+
 /* button down and title -reusable */
+
 .btn-down {
   font-size: 3rem;
   display: inline-block;
@@ -271,6 +275,7 @@ h3 {
 }
 
 /* work */
+
 #work {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url("../images/work-pic.jpg") center/cover no-repeat fixed;
@@ -291,7 +296,9 @@ h3 {
   width: 50px;
   margin: 0 auto 1.7rem auto;
 }
+
 /* portfolio */
+
 .portfolio-grid > div {
   transition: var(--transition);
 }
@@ -300,6 +307,7 @@ h3 {
 }
 
 /* contact */
+
 #contact {
   height: 100vh;
   display: flex;
@@ -343,10 +351,11 @@ h3 {
   transition: var(--transition);
 }
 .contact-left .btn-submit:hover {
-  background-color: #000;
+  background-color: #fa8a02;
 }
 
 /*  Intrigued  */
+
 #intrig {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url("../images/insta-pic.jpg") center/cover no-repeat fixed;
@@ -372,6 +381,7 @@ h3 {
 }
 
 /* footer */
+
 #footer {
   background-color: var(--dark-color);
   color: var(--light-color);
